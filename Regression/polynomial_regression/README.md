@@ -1,43 +1,120 @@
-Polynomial Regression Project
+# Polynomial Regression and Dataset Experiments
 
-This project demonstrates the implementation of **Polynomial Regression**, a machine learning technique used when the relationship between variables is **non-linear**. Unlike Linear Regression which fits a straight line, Polynomial Regression fits a **curved line** that better represents complex patterns in data.
+## Overview
 
-The goal of this project is to understand how polynomial features can transform linear models to capture non-linear relationships.
+This folder contains experiments and practice notebooks related to **Polynomial Regression and other machine learning tasks**.
+The notebooks use different datasets to explore regression and classification concepts, perform data analysis, and build predictive models using Python and Scikit-learn.
 
-Dataset Used
+These projects were created to practice **data preprocessing, visualization, model training, and prediction** using real-world datasets.
 
-Ice Cream Selling Data
+---
 
-This dataset contains information about **temperature and ice cream sales**. The relationship between these variables is not perfectly linear, making it suitable for demonstrating Polynomial Regression.
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+---
+
+# Files and Projects
+
+## 1. Polynomial Regression – Ice Cream Sales
+
+This notebook demonstrates **Polynomial Regression** using an ice cream sales dataset.
+
+The project analyzes the relationship between **temperature and ice cream sales** and fits a polynomial curve to model the non-linear relationship.
 
 Files:
 
-Polynomial.ipynb
-Ice_cream selling data.csv
-README.md
+* Polynomial.ipynb
+* Ice_cream selling data.csv
 
-Features Implemented
+Key Concepts:
 
-Data Loading using Pandas
-Data Visualization using Matplotlib
-Polynomial Feature Transformation using Scikit-learn
-Model Training using Linear Regression with Polynomial Features
-Visualization of the Polynomial Regression Curve
+* Non-linear regression
+* Polynomial feature transformation
+* Data visualization
 
-Learning Outcomes
+---
 
-Through this project I practiced:
+## 2. Loan Dataset Analysis
 
-Understanding non-linear relationships in data
-Using PolynomialFeatures from Scikit-learn
-Building regression models for curved data patterns
-Visualizing regression curves and model predictions
+This project explores loan-related datasets and experiments with different machine learning techniques.
 
-Future Improvements
+Files:
 
-Further improvements can include:
+* loan.ipynb
+* loan_data.ipynb
+* loan_dataknn.ipynb
+* loan_data.csv
+* loan_approval_dataset.csv
 
-Testing different polynomial degrees
-Comparing Linear Regression vs Polynomial Regression performance
-Adding model evaluation metrics such as R² score and Mean Squared Error
+Key Concepts:
+
+* Data preprocessing
+* Loan approval prediction
+* Machine learning model experimentation
+
+---
+
+## 3. Multiclass Classification
+
+This notebook demonstrates **multiclass classification**, where a model predicts one category among multiple possible classes.
+
+Files:
+
+* multiclas.ipynb
+
+Key Concepts:
+
+* Classification problems
+* Handling multiple output classes
+* Model training and prediction
+
+---
+
+## 4. Telecommunication Dataset Analysis
+
+This project analyzes telecommunication data to understand patterns and build predictive models.
+
+Files:
+
+* tele.ipynb
+* telco_data.csv
+
+Key Concepts:
+
+* Data exploration
+* Feature analysis
+* Predictive modeling
+
+---
+
+## Features Implemented
+
+Across these notebooks, the following data science tasks are practiced:
+
+* Data Loading and Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Regression Modeling
+* Classification Modeling
+* Model Prediction
+
+---
+
+## Learning Outcomes
+
+Through these projects I practiced:
+
+* Data preprocessing using **Pandas**
+* Data visualization using **Matplotlib and Seaborn**
+* Implementing machine learning models using **Scikit-learn**
+* Understanding relationships between variables in datasets
+* Working with multiple real-world datasets
 
